@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 80%;
+    /* display: flex; */
+    border: 1px solid black;
+    margin: auto;
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-right: 5px;
+    background-image:linear-gradient(50deg,rgb(216, 131, 129),rgb(207, 207, 207))
+    /* background-image: url(Lighthouse.jpg); */
+    /* color: white; */
+    
+    
+}
+.mainsection1-aboutself{
+    width: 100%;
+    display: flex;
+}
+.about-self{
+    width: 70%;
+    padding-left: 8px;
+    padding-top: 20px;
+}
+.passport-img{
+    width: 30%;
+    display: flex;
+}
+.one{
+    list-style-type: none;
+}
+.image-adjust{
+    height: 100px;
+    width: 30%;
+    min-width: 150px;
+    margin: auto;
+}
+.mainsection2{
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.mainsection3-education{
+    width: 100%;
+    /* display: flex; */
+}
+table{
+    border: 1px solid black;
+}
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.table{
+    margin-left: 25%;
+}
+.mainsection4-skills{
+    width: 100%;
+    /* display: flex; */
+}
+.four{
+    display: flex;
+    width: 100%;
+    padding-left: 10px;
+}
+.four div:first-child{
+     width: 40%;
+     /* padding-left:0px ; */
+    
+}
+.four div:last-child{
+    width: 60%;
+}
+.progress-bar{
+    width: 95%;
+}
+
+.mainsection5-personaldetails{
+    width: 100%;
+
+}
+
+.personaldetails{
+    width: 100%;
+    padding-left: 30%;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    
+}
+.details div:first-child{
+    width:40% ;
+    padding-left: 5%;
+}
+
+.details div:last-child{
+    width: 60%;
+    padding-right: 30%;
+}
+
+  h4:hover{
+    background-color: rgb(148, 145, 145);
+    width: 200px;
+    
+}

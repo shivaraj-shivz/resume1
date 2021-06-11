@@ -1,0 +1,21 @@
+@media only screen and (max-width:1024px){
+   
+    .container{
+        width: 120%;
+        
+       
+    }
+    .passport-img{
+      width: 40%;
+      
+    }
+
+    .about-self{
+        width: 80%;
+    }
+    .table{
+        width: 70%;
+        margin-left: 0%;
+    }
+}
+
